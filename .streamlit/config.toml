@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#059669" # Emerald Green (Cocok dengan tema Lestari/Mart)
+backgroundColor = "#FFFFFF" # Clean White
+secondaryBackgroundColor = "#F8FAFC" # Slate 50 (Abu-abu sangat muda untuk card/sidebar)
+textColor = "#1E293B" # Slate 800 (Abu-abu gelap untuk teks yang nyaman dibaca)
+font = "sans serif"
