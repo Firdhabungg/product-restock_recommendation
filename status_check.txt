@@ -1,4 +1,0 @@
-Status
-⚠ RESTOCK    5
-✓ CUKUP      5
-Name: count, dtype: int64

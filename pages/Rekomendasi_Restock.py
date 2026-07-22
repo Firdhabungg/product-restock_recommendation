@@ -152,7 +152,7 @@ st.markdown("---")
 # 3. DAFTAR SELURUH PRODUK
 # ==========================================
 with st.container(border=True):
-    st.markdown("### 📋 Daftar Rekomendasi Seluruh Produk")
+    st.markdown(f"### 📋 Daftar Rekomendasi Seluruh Produk ({len(products)} SKU)")
 
     col1, col2 = st.columns(2)
     with col1:

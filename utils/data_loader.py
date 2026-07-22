@@ -4,7 +4,7 @@ import numpy as np
 FILE_PATH = "data/hasil_eksperimen_lestari_mart.xlsx"
 
 def load_cluster_data():
-    """Load clustering results from sheet 4 (955 products with cluster labels)."""
+    """Load clustering results from sheet 4 (1036 products, Jan 2 - Jun 30 2026)."""
     df = pd.read_excel(
         FILE_PATH,
         sheet_name="4_Hasil_Klusterisasi",
@@ -22,7 +22,7 @@ def load_cluster_summary():
     return df
 
 def load_simulation_data():
-    """Load the original 10-product simulation from sheet 6."""
+    """Load simulation sample from sheet 6."""
     df = pd.read_excel(
         FILE_PATH,
         sheet_name="6_Simulasi_Rekomendasi",
@@ -32,7 +32,7 @@ def load_simulation_data():
 
 def load_full_product_data():
     """
-    Load all 955 products from sheet 4 (Hasil Klusterisasi) and generate
+    Load all 1036 products from sheet 4 (Hasil Klusterisasi) and generate
     realistic random Stok_Aktual for simulation. Computes Status and Qty_Order
     based on Stok_Aktual vs ROP comparison.
     
